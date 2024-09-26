@@ -1,0 +1,145 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lora:ital,wght@0,400;0,500;1,400&family=Satisfy&family=Special+Elite&family=Young+Serif&family=Zeyada&display=swap');
+
+*{
+	/* font-family: 'Poppins'; */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	scroll-padding-top: 2rem;
+  	text-decoration: none;
+  	list-style: none;
+}
+
+body {
+    background: url('../img/ABBA.jpg'); /*background image*/
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    position: relative;
+    display: flex;
+    font-size: 1.6rem;
+    flex-direction: column;
+}
+
+/* Adding Blur Effect */
+body::before {
+    content: ''; /*empty content*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    filter: blur(8px);
+    z-index: -1; /* position behind other content*/
+}
+
+/* Main Container to Control Text Readability */
+main {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 1em;
+}
+header h1 {
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+    color: #FFD700;
+    text-shadow: 0 0 10px #FF6347, 0 0 20px #FF4500, 0 0 30px #FFD700, 0 0 40px #FFD700;/*glowing effect*/
+}
+
+header h2 {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    color: #FFD700;
+    text-shadow: 0 0 10px #FF6347, 0 0 20px #FF4500, 0 0 30px #FFD700, 0 0 40px #FFD700;/*glowing effect*/
+}
+
+p {
+    font-family: 'Loras';
+    line-height: 2rem;
+}
+.red{
+    color: #D80032;
+    font-weight: 700;
+}
+.dancing{
+    color: #b700ff;
+    font-weight: 600;
+    font-family: cookie;
+    font-style: italic;
+    font-size: 50px;
+    line-height: 40px;
+    text-shadow: 0 0 10px #c847fb, 0 0 20px #b700ff, 0 0 30px #e0acf5;/*glowing effect*/
+}
+.older{
+    color: #FFCD4B;
+}
+.does{
+    color: #5D12D2;
+    font-family: Cookie; 
+    font-size: 62px; 
+    line-height: 50px;
+}
+.see{
+    color: #F99417; 
+    font-family: 'Special Elite'; 
+    font-weight: 600;
+}
+.feel{
+    font-size: 35px;
+    font-style: italic; 
+    color: #ff00b3; 
+    line-height: 32px;  
+    font-weight: 600;
+}
+.p{
+    font-family: 'Cookie'; 
+    font-size: 35px;
+}
+.Looking{
+    font-style: italic; 
+    font-weight: 600;
+}
+.digging{
+    color: #272829; 
+    font-weight: 700; 
+    font-size: 44px; 
+    font-family: 'Cookie'; 
+    line-height: 50px;
+}
+.last{
+    color: brown; 
+    font-weight: 700; 
+    font-size: 76px; 
+    font-family: 'Cookie'; 
+    line-height: 50px;
+}
+.you{
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'Cookie', cursive;
+    line-height: 50px;
+    color: #FFD700;
+    text-shadow: 0 0 10px #FF6347, 0 0 20px #FF4500, 0 0 30px #FFD700, 0 0 40px #FFD700; /*glowing effect*/
+}
+footer {
+    text-align: center;
+    background: #222;
+    color: #fff;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
